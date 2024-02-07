@@ -1,0 +1,21 @@
+body{
+   background-color: rgba(233, 235, 238, 255);
+}
+
+div {
+    width: 500px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 50px;
+    float: left;
+
+}
+
+img{
+    width: 100%;
+}
+
+h3{
+    font-family:sans-serif;
+}
