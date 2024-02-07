@@ -3,13 +3,104 @@
 
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
 
-<head>
-    
-</head>
+    <body>
+        <nav>
+            <h1>DFA Learn HTML/CSS</h1>
+            <ul>
+                <input
+                    type="email"
+                    name="email-login"
+                    id="email-login"
+                    placeholder="Enter email..."
+                />
+                <input
+                    type="password"
+                    name="password-login"
+                    id="password-login"
+                    placeholder="Enter password..."
+                />
+                <button type="submit" name="login" id="login">Login</button>
+            </ul>
+        </nav>
+        <div class="left-content">
+            <h3>Facebook helps you to connect and share with the people in your life.</h3>
+            <img src="images/people-network.png" />
+        </div>
 
-<body>
-    
-</body>
+        <div id="right-content">
+            <h1>Create an account</h1>
+            <h3>It's free and always will be</h3>
+            <form action="" method="get">
+                <input type="text" name="first name" id="first-name" placeholder="First Name" />
+                <input type="text" name="last name" id="last-name" placeholder="Last Name" />
+                <br />
+                <input
+                    type="text"
+                    name="email or phoneNumber"
+                    id="email-phoneNumber"
+                    placeholder="Mobile number or Email"
+                />
+                <br />
+                <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="New Password"
+                    <br
+                />
+                <h3>Birthday</h3>
+                <br />
+                <label for="day"></label>
+                <select class="birth-select" id="day" name="day">
+                    <option value="">1</option>
+                </select>
+                <label for="month"></label>
+                <select class="birth-select" id="month" name="month">
+                    <option value="1">Jan</option>
+                </select>
+                <label for="year"></label>
+                <select class="birth-select" id="year" name="year">
+                    <option value="">2004</option>
+                </select>
+                <br />
+                <div class="gender-select">
+                    <input type="radio" name="gender" value="male" /> <strong>Female</strong>
+                    <input type="radio" name="gender" value="male" /> <strong>Male</strong>
+                </div>
+            </form>
 
+            <p class="disclaimer">
+                By clicking Sign Up, you agree to our Terms, Data Policy and Cookie <br />
+                Policy. You may receive SMS notifications from us and can opt out at <br />
+                any time
+            </p>
+            <button type="button" id="sign-up">Sign Up</button>
+        </div>
+    </body>
 </html>
+
+<!-- Create an account
+
+it's free and always will be
+
+
+
+[first name] [last name]
+
+[Mobile number or email address]
+
+[New password]
+
+Birthday
+
+[Month] [Day] [Year]
+
+[] female [] male
+
+By clicking Create an account, you agree to our Terms and that you have read our Data Policy, including our Cookie Use.
+
+sign up -->
